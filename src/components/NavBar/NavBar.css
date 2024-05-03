@@ -1,11 +1,13 @@
 nav {
   padding: 10px 40px;
-  background-color: rgb(28, 28, 58);
+  background-color: #5D5D65;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 24px;
+  border: 2px solid black;
+  border-top: none;
 }
 
 nav > h1 {
@@ -16,13 +18,18 @@ nav > h1 {
 .navlink-container {
   padding: 5px;
   height: 100%;
-  background-color: antiquewhite;
+  background-color: #7B7B85;
   border-radius: 8px;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid black;
 }
 
 .navlink-container > a {
   text-decoration: none;
-  color: rgb(28, 28, 58);
+  color: white;
   font-weight: 700;
 }
