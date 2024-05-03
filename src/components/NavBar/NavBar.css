@@ -1,0 +1,28 @@
+nav {
+  padding: 10px 40px;
+  background-color: rgb(28, 28, 58);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+
+nav > h1 {
+  margin: 0;
+}
+
+
+.navlink-container {
+  padding: 5px;
+  height: 100%;
+  background-color: antiquewhite;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.navlink-container > a {
+  text-decoration: none;
+  color: rgb(28, 28, 58);
+  font-weight: 700;
+}
