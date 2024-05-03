@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom'
 // services 
 import { getStarshipDetails } from '../../assets/services/sw-api'
 
+// css
+import "./StarshipDetails.css"
+
 const StarshipDetails = () => {
   const [starshipDetails, setStarshipsDetails] = useState({})
   const {starShipId} = useParams()
